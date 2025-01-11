@@ -8,6 +8,13 @@ body {
   background-color: #f0f0f0;
  
 }
+.hover:hover{
+  background-color: #099672;
+}
+.hover1:hover{
+  background-color: #099672;
+  color: white;
+}
 .container{
   margin: 40px;
 }
@@ -157,7 +164,7 @@ section .card-2 {
   background-color: white;
   background-image: url("./assets/quote-bg.png");
   background-repeat: no-repeat;
-  background-position: 10px 10px;
+  background-position: 30px 10px;
   margin-top: 40px;
   width: 100%;
   border-radius: 5px;
@@ -166,6 +173,41 @@ section .card-2 {
 }
 .quote p {
   line-height: 30px;
+}
+/* opinion */
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  border: 1px solid lightgray;
+  width: 100%;
+}
+
+.header {
+  background-color: #C6E4D6;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.question, .dropdown {
+  padding: 15px;
+  border: 1px solid lightgray;
+}
+
+.dropdown select {
+  width: 100%;
+  padding: 8px;
+  background-color: #C6E4D6;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 14px;
 }
 /* /news/ */
 .news-section {
