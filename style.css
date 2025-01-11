@@ -25,3 +25,41 @@ header button{
   color:seagreen;
   cursor: pointer;
 }
+
+  /* /banner part/ */
+  .banner{
+    background-color:#C6E4D6;
+    border-radius: 10px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-bottom: 50px;
+  }
+  .banner-container{
+    margin:30px;
+    margin-top: 80px;
+   padding:  20px 20px;
+  }
+  p{
+    color:grey;
+  }
+  .banner-container h1{
+    margin-top: 15px;
+  }
+  .banner-container button{
+    height: 50px;
+    width: 80%;
+    background-color: #006A50;
+    border-radius: 5px;
+    color:white ;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+  }
+
+  .banner img{
+   width: 500px;
+   height: 350px;
+  }
