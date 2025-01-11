@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: #f0f0f0;
+  margin:40px;
+ 
+}
+
+header{
+  display: flex;
+  justify-content:space-between;
+  
+}
+header button{
+  width: 90px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid seagreen;
+  border-radius: 5px;
+  font-size: 18px;
+  color:seagreen;
+  cursor: pointer;
+}
