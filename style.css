@@ -192,3 +192,51 @@ section .card-2 {
 .news1 img {
   border-radius: 16px;
 }
+ /* /taka/ */
+ .donate{
+  margin-top: 40px;
+  text-align: center;
+}
+.Taka{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.taka1{
+  background-color: white;
+  border-radius:8px;
+  text-align: center;
+  padding: 30px 30px;
+  border: 2px solid lightgray;
+  outline: none;
+}
+.taka1:hover {
+  background-color: #C6E4D6; 
+}
+.input-section{
+  margin-top: 20px;
+  align-items: center;
+}
+.input-section input{
+  width: 100%;
+  height: 8vh;
+  
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+ 
+}
+.input-section button{
+  background-color: #006A50;
+  padding: 15px 30px;
+  color:white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+  
+}
